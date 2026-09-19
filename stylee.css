@@ -1,0 +1,50 @@
+div{
+    height:100px;
+    width:100px;
+    background-color:blue;
+    animation-name:colorAni;
+    position:absolute;
+    animation-duration:0.25s;
+    animation-delay:0s;
+    color:white;
+    animation-direction:normal;
+    
+
+    /* text-align:center;
+    transition-property:all;
+    transition-duration:2s; */
+
+
+}
+div:hover{
+    background-color: blue;
+    color:back;
+    font-size:10px;
+    display:flex;
+    justify-content:center;
+    /* transform:skew(20deg,10deg); */
+    /* animation:colorAni;
+   animation-delay:5s;
+   animation-direction:reverse;
+} */
+ animation:colorAni 2s ease-in 0s infinite
+}
+
+div:active{
+    background-color:pink;
+}
+p{
+    height:100px;
+    width:100px;
+    background-color:black;
+}
+@keyframes colorAni {
+    from {
+        left:0px;
+        background-color:pink;
+    }
+    to {
+        left:200px;
+        background-color:yellow;
+    }
+}

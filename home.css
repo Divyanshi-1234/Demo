@@ -1,0 +1,182 @@
+body{
+    background-image:url("images/header-hero.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    margin:0;
+    
+    font-family:'DM Sans', sans-serif;
+    height:60vh;
+}
+
+
+.nav{
+    display:flex;
+    align-items:center;
+    padding:20px 40px;
+    list-style:none;
+    margin:0;
+}
+
+
+#logo{
+    height:50px;
+    margin-right:auto;
+}
+
+
+.nav li{
+    margin-left:30px;
+}
+
+.nav li a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+
+
+#no{
+    border:2px solid white;
+    padding:6px 15px;
+    border-radius:5px;
+}
+
+#no a{
+    color:white;
+}
+
+
+#main{
+    color:white;
+    text-align:center;
+    margin-top:90px;
+}
+
+#a{
+    font-size:40px;
+}
+
+#b{
+    font-size:100px;
+    margin:10px 0;
+}
+
+#c{
+    font-size:20px;
+}
+
+
+button{
+    background-color:rgb(223,223,49);
+    border:none;
+    padding:12px 25px;
+    font-size:16px;
+    border-radius:5px;
+}
+.line{
+    text-decoration:underline rgb(212, 212, 62) 2px;
+    padding-top:3px;
+}
+#services{
+    background:white;
+    
+    text-align:center;
+    padding:20px;
+     padding-left:20px;
+    color:rgb(102, 148, 102);
+}
+ #web,#graphic ,#content
+ {
+     height:730px; 
+      width:350px; 
+
+ }
+#web{
+     background-image:url("images/service-1.jpg");
+       
+      background-repeat:no-repeat; 
+      padding-top:500px; 
+    } 
+     
+#graphic{ 
+    background-image:url("images/service-2.jpg"); 
+    
+    background-repeat:no-repeat; 
+    padding-top:500px; 
+    text-decoration:none;
+ }
+
+  #content{
+     background-image:url("images/service-3.jpg"); 
+     
+     background-repeat:no-repeat;
+    padding-top:500px; 
+}
+.ourservice{
+    margin-top:5px;;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:nowrap;
+    align-items:center;
+    justify-content:space-evenly;
+}
+.content{
+    padding-top:40px;
+    margin-bottom:10px;
+    padding:20px;
+    font-size:40px;
+}
+
+
+.about{
+    background-image:url("images/leaf.jpg");   
+    padding-left:60px;
+   
+    height:400px;
+    width:110%;
+    box-sizing:border-box;
+    font-size:20px;
+    text-align:left;
+    background-repeat:no-repeat;
+    background-position:right 200px center;
+    background-size:300px;
+     box-sizing:border-box;
+}
+    
+
+
+
+.question{
+  
+    background-image:url("images/footer-hero-big copy.jpg");
+    background-size:cover;
+    background-repeat:no-repeat;
+    
+    padding:300px;
+}
+.foot {
+    color:rgb(113, 197, 113);
+    text-decoration:none;
+    list-style:none;
+    display:flex;
+    justify-content:space-evenly;
+    padding:10px;
+   
+
+    
+}
+.footlogo{
+ color:rgb(110, 185, 110);
+height:50px;
+margin:auto;
+display:block;
+}
+
+.last{
+    text-decoration:none;
+   text-align:right;
+   
+    padding-left:100px;
+  
+   color:rgb(117, 161, 117)
+} 

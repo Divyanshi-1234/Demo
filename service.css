@@ -1,0 +1,64 @@
+body{
+    background-image:url("images/ourservice.jpg");
+   height:100vh;
+    color:rgb(93, 158, 93);
+    background-size:cover;
+   background-repeat:no-repeat;
+   height:50px;
+   
+
+    
+}
+.nav{
+    display:flex;
+    justify-content:flex-end;
+    gap:20px;
+    padding-top:30px;
+    list-style:none;
+    
+}
+.nav a{
+    text-decoration:none;
+    
+    color:white;
+}
+#logo{
+   padding-right:700px;
+}
+.our{
+    text-align:center;
+   font-size:30px;
+   color:white;
+   
+
+}
+.service1{
+    
+    background-image:url("images/service-1.jpg");
+    background-repeat:no-repeat;
+    height:400px;
+    width:300px;
+   
+}
+.service2{
+        background-image:url("images/service-2.jpg");
+        background-repeat:no-repeat;
+        height:400px;
+        width:300px;
+        
+}
+.service3{
+   
+        background-image:url("images/service-3.jpg");
+        background-repeat:no-repeat;
+        height:400px;
+        width:300px;
+       
+}
+#center{
+   
+    display:flex;
+    justify-content:column;
+
+}
+     
